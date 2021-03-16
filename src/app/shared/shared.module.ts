@@ -20,6 +20,6 @@ import {MatCardModule} from '@angular/material/card';
     MatToolbarModule,
     MatMenuModule,
     MatCardModule
-  ],exports: [NavbarComponent, FooterComponent],
+  ],exports: [NavbarComponent, FooterComponent]
 })
 export class SharedModule { }

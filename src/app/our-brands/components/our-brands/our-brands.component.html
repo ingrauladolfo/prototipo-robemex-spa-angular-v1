@@ -1,20 +1,18 @@
 <!-- <p>our-brands works!</p> -->
 <div class="background">
-    <div class="container mt-5 pt-5">
-        <div class="columns">
-            <div class="column">
-                <a [routerLink]="['/mision-vision']" routerLinkActive="router-link-active"><img class="img-fluid z-depth-1"
-                    src="../../../../assets/images/our-brands/carmelita.png" alt="Misión y Visión"></a>
+    <div class="container mt-5 pt-5" >
+        <div class="row justify-content-center mx-auto">
+          <div class="col-sm" *ngFor="let brand of brands">
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <a [href]="brand.url" target="_blank"><img class="img-fluid z-depth-1"
+                    [src]="brand.img" [alt]="brand.alt"></a>
+                </figure>
+              </div>
             </div>
-            <div class="column">
-              Second column
-            </div>
-            <div class="column">
-              Third column
-            </div>
-            <div class="column">
-              Fourth column
-            </div>
+            
           </div>
+        </div>
     </div>
 </div>

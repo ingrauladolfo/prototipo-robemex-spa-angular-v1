@@ -13,6 +13,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import {MatCardModule} from '@angular/material/card';
 import { OurBrandsModule } from './our-brands/our-brands.module';
 import { OurCompanyModule } from './our-company/our-company.module';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { OurCatalogueModule } from './our-catalogue/our-catalogue.module';
 
 @NgModule({
   declarations: [
@@ -25,12 +27,14 @@ import { OurCompanyModule } from './our-company/our-company.module';
     HomeModule,
     OurBrandsModule,
     OurCompanyModule,
+    OurCatalogueModule,
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
     MatToolbarModule,
     MatCardModule,
+    NgxExtendedPdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

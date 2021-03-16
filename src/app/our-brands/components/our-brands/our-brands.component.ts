@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { OurBrandsService } from '../../services/our-brands.service';
 
 @Component({
   selector: 'app-our-brands',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-brands.component.css']
 })
 export class OurBrandsComponent implements OnInit {
-
-  constructor() { }
+  brands: any[] = [];
+  constructor(
+    private _brands: OurBrandsService
+  ) { 
+    this.brands = _brands.obtainBrand();
+  }
 
   ngOnInit(): void {
   }

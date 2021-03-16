@@ -2,5 +2,9 @@
     background: #292828 !important;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
+    height: calc(100% - (5px + 5px));
+    width: 100%;
+}
+.card{
+    background: transparent;
 }
