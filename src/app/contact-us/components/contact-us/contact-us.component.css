@@ -1,0 +1,17 @@
+.background{
+    background-color: #292828;
+}
+.button{
+    background-color: #292828;
+    border: transparent;
+}
+p{
+    color: white;
+}
+p strong{
+    color: white;
+    font-size: large;
+}
+i{
+    color: white;
+}

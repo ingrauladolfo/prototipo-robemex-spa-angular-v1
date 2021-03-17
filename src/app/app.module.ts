@@ -15,6 +15,7 @@ import { OurBrandsModule } from './our-brands/our-brands.module';
 import { OurCompanyModule } from './our-company/our-company.module';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { OurCatalogueModule } from './our-catalogue/our-catalogue.module';
+import { ContactUsModule } from './contact-us/contact-us.module';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { OurCatalogueModule } from './our-catalogue/our-catalogue.module';
     OurBrandsModule,
     OurCompanyModule,
     OurCatalogueModule,
+    ContactUsModule,
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
