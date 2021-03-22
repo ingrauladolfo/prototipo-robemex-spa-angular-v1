@@ -16,6 +16,7 @@ import { OurCompanyModule } from './our-company/our-company.module';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { OurCatalogueModule } from './our-catalogue/our-catalogue.module';
 import { ContactUsModule } from './contact-us/contact-us.module';
+import { CarouselModule, MDBBootstrapModule, WavesModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,9 @@ import { ContactUsModule } from './contact-us/contact-us.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MDBBootstrapModule.forRoot(),
+    WavesModule,
+    CarouselModule,
     SharedModule,
     HomeModule,
     OurBrandsModule,
