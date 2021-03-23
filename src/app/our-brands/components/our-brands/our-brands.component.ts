@@ -7,11 +7,8 @@ import { OurBrandsService } from '../../services/our-brands.service';
   styleUrls: ['./our-brands.component.css']
 })
 export class OurBrandsComponent implements OnInit {
-  brands: any[] = [];
   constructor(
-    private _brands: OurBrandsService
   ) { 
-    this.brands = _brands.obtainBrand();
   }
 
   ngOnInit(): void {

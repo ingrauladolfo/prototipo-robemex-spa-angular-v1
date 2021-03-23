@@ -8,3 +8,11 @@
 .card{
     background: transparent;
 }
+
+@media(max-width:590px){
+
+.card img{
+    max-width: 150px;
+    display: inline-block;
+ }
+}

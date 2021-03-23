@@ -19,6 +19,11 @@ export class OurBrandsService {
       img: '../../../assets/images/our-brands/rompope-de-la-abuela.png',
       alt: 'Logo de Rompope de la Abuela',
       url: 'http://rompopedelaabuela.com/'
+    },
+    {
+      img: '../../../assets/images/our-brands/rompope-de-la-abuela.png',
+      alt: 'Logo de Rompope de la Abuela',
+      url: 'http://rompopedelaabuela.com/'
     }
   ]
   constructor() { }
