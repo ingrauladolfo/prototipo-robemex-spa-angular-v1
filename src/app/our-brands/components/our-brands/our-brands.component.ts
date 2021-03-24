@@ -7,9 +7,7 @@ import { OurBrandsService } from '../../services/our-brands.service';
   styleUrls: ['./our-brands.component.css']
 })
 export class OurBrandsComponent implements OnInit {
-  constructor(
-  ) { 
-  }
+  constructor() {}
 
   ngOnInit(): void {
   }
